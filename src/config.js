@@ -26,9 +26,9 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 200,
+    growEditionSizeTo: 300,
     layersOrder: [
-      { name: "Background" },
+      { name: "Transparent" },
       { name: "Head" },
       { name: "Clothes" },
       { name: "Mouth" },
@@ -73,7 +73,7 @@ const pixelFormat = {
 };
 
 const background = {
-  generate: true,
+  generate: false,
   brightness: "80%",
   static: false,
   default: "#000000",
